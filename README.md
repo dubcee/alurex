@@ -1,8 +1,6 @@
-# Next.js gh-pages Hello World example
+# Alurex website
 
-This repository is a gh-pages example built with Next.js
-
-https://thierryc.github.io/Next-gh-page-example/
+This repository is a gh-pages project built with Next.js
 
 Install it and run:
 
@@ -13,9 +11,9 @@ npm run dev
 
 Deploy it to github
 
-Edit ```env-config.js``` and replace ```'Next-gh-page-example'``` by your project name.
+Edit ```env-config.js``` and replace ```'alurex'``` by your project name.
 
-Edit ```next.config.js``` and replace ```'Next-gh-page-example'``` by your project name.
+Edit ```next.config.js``` and replace ```'alurex'``` by your project name.
 
 1. Create repository.
 2. Link it to your github account.
