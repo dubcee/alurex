@@ -9900,21 +9900,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 4
     },
     __self: this
-  }, "Hello World. ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Hello World.. ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     as: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 4
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 4
     },
     __self: this
   }, "About")));
@@ -9922,7 +9922,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fasenstoyanov%2FProjects%2Fpersonal%2Falurex%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************************/
@@ -9945,5 +9945,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
