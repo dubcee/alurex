@@ -1,5 +1,6 @@
 import '../public/styles/global.css'
 import { Header } from '../components/Header/Header'
+import { Footer } from '../components/Footer/Footer'
 import { PageContent } from '../components/PageContent/PageContent'
 import { Meta } from '../components/Meta/Meta'
 
@@ -15,6 +16,7 @@ function MyApp({ Component, pageProps }) {
       <PageContent>
         <Component {...pageProps} />
       </PageContent>
+      <Footer />
     </>
   )
 }

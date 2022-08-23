@@ -1,7 +1,5 @@
-import { UnderConstruction } from '../components/UnderConstruction/UnderConstruction'
+import { Contacts } from '../components/Contacts/Contacts'
 
 export default () => (
-  <div>
-    <UnderConstruction />
-  </div>
+  <Contacts />
 )

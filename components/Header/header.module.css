@@ -2,7 +2,7 @@
     /*background-color: rgb(27, 27, 27);*/
     background-color: black;
     display: flex;
-    color: #84ea2c;
+    color: #7cc04e;
     padding: 8px;
     height: 68px;
     position: fixed;
@@ -19,8 +19,15 @@
 }
 
 .linkItem {
-    padding: 4px 24px;
+    padding: 14px 24px;
     font-size: 1.2rem;
+}
+
+li.active {
+    text-shadow: 0 0 15px #7cc04e;
+    border-bottom: 2px solid #7cc04e;
+    border-left: 2px solid #7cc04e;
+    border-radius: 50%;
 }
 
 .box {
@@ -29,16 +36,87 @@
     justify-content: center;
 }
 
-.box:first-child {
+
+.logoWrapper {
     margin-right: auto;
     display: flex;
     justify-content: flex-start;
+    order: 1;
 }
 
-.box:last-child {
+.linksWrapper {
+    order: 2;
+}
+
+.mmbWrapper {
+    order: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     margin-left: auto;
 }
 
+.hbWrapper {
+    display: none;
+}
+
+.mobileMenuWrapper {
+    display: none;
+}
+
 .header img {
-    width: 100px;
+    width: 90px;
+}
+
+@media (max-width: 480px) {
+    .logoWrapper {
+        order: 3;
+        justify-content: flex-end;
+    }
+    .mmbWrapper {
+        order: 1;
+        justify-content: flex-start;
+    }
+    .hbWrapper {
+        display: block;
+    }
+    .linksWrapper {
+        display: none;
+        align-items: center;
+    }
+    .mobileMenuWrapper {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        inset: 0;
+        background-color: black;
+    }
+    .linksList {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .linkItem {
+        padding: 14px 24px;
+        font-size: 1.6rem;
+    }
+    .inMenuCbWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 8px 8px 0 0;
+    }
+    .inMenuLogoWrapper {
+        margin: auto 0 80px 0;
+        padding-right: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        height: 68px;
+    }
+    li.active {
+        border-bottom: none;
+        border-left: 2px solid #7cc04e;
+        border-bottom: 2px solid #7cc04e;
+        border-radius: 50%;
+    }
 }

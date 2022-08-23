@@ -1,8 +1,8 @@
 import styles from './content.module.css'
 export const PageContent = (props) => {
   return (
-    <div className={styles.content}>
+    <main className={styles.content}>
       { props.children }
-    </div>
+    </main>
   )
 }
