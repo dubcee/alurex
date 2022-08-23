@@ -1,6 +1,6 @@
 {
-  "name": "gh-pages",
-  "author": "thierryc",
+  "name": "alurex",
+  "author": "stoyanov",
   "version": "1.0.2",
   "scripts": {
     "dev": "next",
@@ -11,13 +11,17 @@
   },
   "dependencies": {
     "next": "latest",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "license": "ISC",
   "devDependencies": {
-    "rimraf": "^3.0.0",
+    "@babel/core": "latest",
+    "babel-plugin-transform-define": "^1.3.2",
+    "css-loader": "^6.7.1",
     "gh-pages": "^2.1.1",
-    "babel-plugin-transform-define": "^1.3.2"
+    "rimraf": "^3.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "latest"
   }
 }

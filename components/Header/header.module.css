@@ -1,0 +1,44 @@
+.header {
+    /*background-color: rgb(27, 27, 27);*/
+    background-color: black;
+    display: flex;
+    color: #84ea2c;
+    padding: 8px;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.linksList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkItem {
+    padding: 4px 24px;
+    font-size: 1.2rem;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.box:first-child {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box:last-child {
+    margin-left: auto;
+}
+
+.header img {
+    width: 100px;
+}
