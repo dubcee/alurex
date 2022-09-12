@@ -5,9 +5,7 @@
     height: calc(100vh  - 68px);
     margin: 68px auto 0;
     padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #7cc04e;
     max-width: 1200px;
+    overflow: auto;
 }

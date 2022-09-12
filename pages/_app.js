@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Meta
         title={'ALUREX - Алуминиеви и стъклени парапети'}
         description={'Производство и монтаж на алуминиеви и стъклени парапети'}
-        keywords={'алуминиеви,парапети,стъклени,монтаж,aluminievi,parapeti,stakleni'}
+        keywords={'алуминиеви, парапети, стъклени, монтаж, aluminievi, parapeti, stakleni, алурекс, alurex'}
       />
       <Header />
       <PageContent>

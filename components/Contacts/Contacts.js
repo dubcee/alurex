@@ -5,7 +5,7 @@ export const Contacts = () => {
   return (
     <section className={styles.pageWrapper}>
       <div className={styles.logoWrapper}>
-        <img src={'./images/logo-big.png'} alt={'ALUREX'} />
+        <img src={'./images/logo-big-green.png'} alt={'ALUREX'} />
       </div>
       <div className={styles.infoWrapper}>
         <div className={styles.headingWrapper}>

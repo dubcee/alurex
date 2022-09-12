@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from './footer.module.css'
-import { FaPhoneAlt, FaRegEnvelope } from 'react-icons/FA'
+import { FaPhoneAlt, FaRegEnvelope } from 'react-icons/fa'
 
 export const Footer = (props) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
@@ -13,7 +13,11 @@ export const Footer = (props) => {
   return (
     <footer className={styles.footer}>
       <div className={`${styles.box} ${styles.logoWrapper}`}>
-        <img src={'./images/logo.png'} alt={'logo'} />
+        <Link href='/' as={ process.env.BACKEND_URL + '/'}>
+          <a>
+            <img src={'./images/logo-silver.png'} alt={'logo'} />
+          </a>
+        </Link>
       </div>
       <div className={`${styles.box} ${styles.linksWrapper}`}>
         ALUREX Ⓒ 2022

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useRouter } from "next/router"
 import Link from 'next/link'
 import styles from './header.module.css'
-import { FaAlignJustify, FaRegWindowClose } from 'react-icons/FA'
+import { FaAlignJustify, FaRegWindowClose } from 'react-icons/fa'
 
 export const Header = (props) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
@@ -16,7 +16,11 @@ export const Header = (props) => {
   return (
     <header className={styles.header}>
       <div className={`${styles.box} ${styles.logoWrapper}`}>
-        <img src={'./images/logo.png'} alt={'logo'} />
+        <Link href='/' as={ process.env.BACKEND_URL + '/'}>
+          <a>
+            <img src={'./images/logo.png'} alt={'logo'} />
+          </a>
+        </Link>
       </div>
       <div className={`${styles.box} ${styles.linksWrapper}`}>
         <ul className={styles.linksList}>

@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .logoWrapper {
@@ -62,6 +63,9 @@
 }
 
 @media (max-width: 480px) {
+    .pageWrapper {
+        margin-top: 20px;
+    }
     .logoWrapper {
         display: none;
     }

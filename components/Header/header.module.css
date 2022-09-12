@@ -42,6 +42,7 @@ li.active {
     display: flex;
     justify-content: flex-start;
     order: 1;
+    position: relative;
 }
 
 .linksWrapper {
