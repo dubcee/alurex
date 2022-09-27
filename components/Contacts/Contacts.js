@@ -11,18 +11,18 @@ export const Contacts = () => {
         <div className={styles.headingWrapper}>
           <h1 className={styles.heading}>Контакти</h1>
         </div>
-        <div>
-          ALUREX е фирма, която държи на професионалното обслужване на високо ниво за своите клиенти.
-        </div>
-        <div>
-          Фирмата изработва алуминиеви и стъклени парапети с високо качество и точност.
-        </div>
-        <div>
+        <h2 className={styles.textEntry}>
+          <strong>ALUREX</strong> е фирма, която държи на професионалното обслужване на високо ниво за своите клиенти.
+        </h2>
+        <h2 className={styles.textEntry}>
+          Фирмата изработва <strong>алуминиеви и стъклени парапети</strong> с високо качество и точност.
+        </h2>
+        <h2 className={styles.textEntry}>
           Ние смятаме, че ключа към добрите резултати е добрата комуникация.
-        </div>
-        <div>
+        </h2>
+        <h2 className={styles.textEntry}>
           За информация или запитване, не се колебайте да ни потърсите на:
-        </div>
+        </h2>
         <div className={styles.contactsWrapper}>
           <div className={styles.contactWrapper}>
             <FaPhoneAlt />

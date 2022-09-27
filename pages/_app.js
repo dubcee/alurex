@@ -11,6 +11,10 @@ function MyApp({ Component, pageProps }) {
         title={'ALUREX - Алуминиеви и стъклени парапети'}
         description={'Производство и монтаж на алуминиеви и стъклени парапети'}
         keywords={'алуминиеви, парапети, стъклени, монтаж, aluminievi, parapeti, stakleni, алурекс, alurex'}
+        og={{
+          title: 'ALUREX - Алуминиеви и стъклени парапети',
+          description: 'Производство и монтаж на алуминиеви и стъклени парапети'
+        }}
       />
       <Header />
       <PageContent>

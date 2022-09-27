@@ -20,7 +20,9 @@ export const Footer = (props) => {
         </Link>
       </div>
       <div className={`${styles.box} ${styles.linksWrapper}`}>
-        ALUREX Ⓒ 2022
+        <h2 className={styles.textEntry}>
+          ALUREX Ⓒ 2022
+        </h2>
       </div>
       <div className={`${styles.box} ${styles.mmbWrapper}`}>
         <div className={styles.contactsWrapper}>
