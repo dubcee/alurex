@@ -51,7 +51,7 @@ export const Projects = () => {
                   }}
                   // onClick={() => setIsInPreviewIndex(index)}
                 >
-                  <img width={'100%'} src={images[key].default.src} alt={`project-${index + 1}`} />
+                  <img width={'100%'} src={images[key]?.default?.src?.slice(1)} alt={`project-${index + 1}`} />
                 </div>
               )
             })
