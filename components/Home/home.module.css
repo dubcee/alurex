@@ -16,6 +16,7 @@
 .imageWrapper {
     flex: 1 0 60%;
     overflow: hidden;
+    position: relative;
 }
 
 .imageWrapper img {
@@ -62,7 +63,7 @@ h1.textEntry {
 }
 
 @media (max-width: 480px) {
-    .imageWrapperWrapper {
+    .imageWrapper {
         flex: 1 0 100%;
     }
     .textWrapper {
