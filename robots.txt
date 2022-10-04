@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.alurex.com/sitemap.xml
+Sitemap: https://www.alurex.com/sitemap.xml
