@@ -49,7 +49,7 @@ export const Projects = () => {
                     ...isInPreview === index ? imagePreviewStyles : {},
                     ...(Number.isInteger(isInPreview) && isInPreview !== index) && { display: 'none' }
                   }}
-                  // onClick={() => setIsInPreviewIndex(index)}
+                  onClick={() => setIsInPreviewIndex(index)}
                 >
                   <img width={'100%'} src={images[key]?.default?.src?.slice(1)} alt={`project-${index + 1}`} />
                 </div>
@@ -67,7 +67,8 @@ export const Projects = () => {
                 borderRadius: '.5rem',
                 padding: '2px 4px',
                 fontWeight: 'bold',
-                zIndex: 3
+                zIndex: 3,
+                cursor: 'pointer'
               }}
               onClick={unsetIsInPreviewIndex}
             >
