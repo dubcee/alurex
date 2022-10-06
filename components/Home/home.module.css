@@ -17,6 +17,8 @@
     flex: 1 0 60%;
     overflow: hidden;
     position: relative;
+    border: 2px solid #7cc04e;
+    border-radius: .25rem;
 }
 
 .imageWrapper img {
