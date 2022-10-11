@@ -120,5 +120,6 @@ h1.textEntry {
     }
     .textEntryMobile {
         display: flex;
+        text-align: center;
     }
 }

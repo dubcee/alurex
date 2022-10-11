@@ -87,4 +87,10 @@
     .infoWrapper {
         padding: 4px;
     }
+    .content {
+        margin: 10px 0;
+    }
+    .pageWrapper {
+        align-items: flex-start;
+    }
 }
