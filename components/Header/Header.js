@@ -18,7 +18,7 @@ export const Header = (props) => {
       <div className={`${styles.box} ${styles.logoWrapper}`}>
         <Link href='/' as={ process.env.BACKEND_URL + '/'}>
           <a>
-            <img src={'./images/logo.png'} alt={'logo'} />
+            <img src={'./images/logo-silver.png'} alt={'logo'} />
           </a>
         </Link>
       </div>
@@ -64,7 +64,7 @@ export const Header = (props) => {
             </li>
           </ul>
           <div className={styles.inMenuLogoWrapper}>
-            <img src={'./images/logo.png'} alt={'logo'} />
+            <img src={'./images/logo-silver.png'} alt={'logo'} />
           </div>
         </div>
       }

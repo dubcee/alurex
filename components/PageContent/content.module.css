@@ -1,11 +1,7 @@
 .content {
-    /*background-color: rgb(27, 27, 27);*/
-    background-color: transparent;
     width: 100%;
     height: calc(100vh  - 68px);
     margin: 68px auto 0;
-    padding: 8px;
-    color: #7cc04e;
-    max-width: 1200px;
+    color: #65676B;
     overflow: auto;
 }

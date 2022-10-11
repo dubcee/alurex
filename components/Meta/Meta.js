@@ -13,6 +13,9 @@ export const Meta = (props) => {
         <meta name={'description'} content={description} />
         <meta property="og:title" content={og.title} />
         <meta property="og:description" content={og.description} />
+        <meta property="og:image" content={og.image} />
+        <meta property="og:image:secure_url" content={og.image} />
+        <meta property="og:site_name" content="alurex.bg" />
         <meta name="robots" content="all" />
       </Head>
     </>

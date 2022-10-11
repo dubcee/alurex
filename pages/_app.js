@@ -13,7 +13,8 @@ function MyApp({ Component, pageProps }) {
         keywords={'алуминиеви, парапети, стъклени, монтаж, aluminievi, parapeti, stakleni, алурекс, alurex'}
         og={{
           title: 'ALUREX - Алуминиеви и стъклени парапети',
-          description: 'Производство и монтаж на алуминиеви и стъклени парапети'
+          description: 'Производство и монтаж на алуминиеви и стъклени парапети',
+          image: './images/home/img1-big.jpeg'
         }}
       />
       <Header />
