@@ -11,7 +11,7 @@ export const Footer = (props) => {
   }
 
   return (
-    <footer className={styles.footer}>
+    <div className={styles.footer}>
       <div className={`${styles.box} ${styles.logoWrapper}`}>
         <Link href='/' as={ process.env.BACKEND_URL + '/'}>
           <a>
@@ -34,6 +34,6 @@ export const Footer = (props) => {
           <span> alurex@abv.bg </span>
         </div>
       </div>
-    </footer>
+    </div>
   )
 }

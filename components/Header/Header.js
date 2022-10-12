@@ -14,7 +14,7 @@ export const Header = (props) => {
   }
 
   return (
-    <header className={styles.header}>
+    <div className={styles.header}>
       <div className={`${styles.box} ${styles.logoWrapper}`}>
         <Link href='/' as={ process.env.BACKEND_URL + '/'}>
           <a>
@@ -68,6 +68,6 @@ export const Header = (props) => {
           </div>
         </div>
       }
-    </header>
+    </div>
   )
 }
