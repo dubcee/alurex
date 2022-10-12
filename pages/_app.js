@@ -8,12 +8,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Meta
-        title={'ALUREX - Алуминиеви и стъклени парапети'}
-        description={'Производство и монтаж на алуминиеви и стъклени парапети'}
-        keywords={'алуминиеви, парапети, стъклени, монтаж, aluminievi, parapeti, stakleni, алурекс, alurex'}
+        title={'ALUREX - Алуминиеви и стъклени парапети - гр. Пловдив'}
+        description={'Производство и монтаж на алуминиеви и стъклени парапети - гр. Пловдив'}
+        keywords={'алуминиеви, парапети, стъклени, монтаж, aluminievi, parapeti, stakleni, алурекс, alurex, пловдив, plovdiv'}
         og={{
           title: 'ALUREX - Алуминиеви и стъклени парапети',
-          description: 'Производство и монтаж на алуминиеви и стъклени парапети',
+          description: 'Производство и монтаж на алуминиеви и стъклени парапети - гр. Пловдив',
           image: './images/home/img1-big.jpeg'
         }}
       />
