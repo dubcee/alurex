@@ -1,7 +1,4 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-User-agent: *
-Allow: /
+User-Agent: *
+Disallow:
 
 Sitemap: https://www.alurex.bg/sitemap.xml
