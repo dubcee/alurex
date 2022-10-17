@@ -15,6 +15,7 @@
 }
 
 .pageWrapper .sectionWrapper:nth-child(2),
+.pageWrapper .sectionWrapper:nth-child(6),
 .pageWrapper .sectionWrapper:nth-child(4) {
     background-color: #F0F2F5;
 }
@@ -46,7 +47,9 @@
     padding-left: 40px;
 }
 
-.pageWrapper .sectionWrapper:nth-child(2) .textWrapper {
+.pageWrapper .sectionWrapper:nth-child(2) .textWrapper,
+.pageWrapper .sectionWrapper:nth-child(6) .textWrapper,
+.pageWrapper .sectionWrapper:nth-child(4) .textWrapper {
     padding-left: 0;
     padding-right: 40px;
 }
@@ -98,6 +101,7 @@ h1.textEntry {
         padding: 20px;
     }
     .pageWrapper .sectionWrapper:nth-child(2) .textWrapper,
+    .pageWrapper .sectionWrapper:nth-child(6) .textWrapper,
     .pageWrapper .sectionWrapper:nth-child(4) .textWrapper {
         padding-left: 20px;
         padding-right: 20px;
@@ -107,11 +111,13 @@ h1.textEntry {
     }
 
     .pageWrapper .sectionWrapper:nth-child(2) .textWrapper,
+    .pageWrapper .sectionWrapper:nth-child(6) .textWrapper,
     .pageWrapper .sectionWrapper:nth-child(4) .textWrapper {
         order: 2;
     }
 
     .pageWrapper .sectionWrapper:nth-child(2) .imageWrapper,
+    .pageWrapper .sectionWrapper:nth-child(6) .imageWrapper,
     .pageWrapper .sectionWrapper:nth-child(4) .imageWrapper {
         order: 1;
     }
