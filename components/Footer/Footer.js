@@ -13,9 +13,9 @@ export const Footer = (props) => {
   return (
     <div className={styles.footer}>
       <div className={`${styles.box} ${styles.logoWrapper}`}>
-        <Link href='/' as={ process.env.BACKEND_URL + '/'}>
+        <Link href='/' as={ process.env.BACKEND_URL + ''}>
           <a>
-            <img src={'./images/logo-silver.png'} alt={'logo'} />
+            <img src={'/images/logo-silver.png'} alt={'logo'} />
           </a>
         </Link>
       </div>

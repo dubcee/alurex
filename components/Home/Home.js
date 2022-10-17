@@ -6,7 +6,7 @@ export const Home = () =>  {
       <section className={styles.sectionWrapper}>
         <div className={styles.content}>
           <div className={styles.imageWrapper}>
-            <img src={'./images/home/img1-big.jpeg'} alt={'ALUREX'} />
+            <img src={'/images/home/img1-big.jpeg'} alt={'ALUREX'} />
           </div>
           <div className={styles.textWrapper}>
             <h2 className={styles.textEntry}>
@@ -61,14 +61,14 @@ export const Home = () =>  {
             </ul>
           </div>
           <div className={styles.imageWrapper}>
-            <img src={'./images/home/img2-big.jpeg'} alt={'ALUREX'} />
+            <img src={'/images/home/img2-big.jpeg'} alt={'ALUREX'} />
           </div>
         </div>
       </section>
       <section className={styles.sectionWrapper}>
         <div className={styles.content}>
           <div className={styles.imageWrapper}>
-            <img src={'./images/home/img3-big.jpeg'} alt={'ALUREX'} />
+            <img src={'/images/home/img3-big.jpeg'} alt={'ALUREX'} />
           </div>
           <div className={styles.textWrapper}>
             <h1 className={styles.textEntry}>
